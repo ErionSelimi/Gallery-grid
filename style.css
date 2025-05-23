@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 15px;
+}
+div {
+  background-size: cover;
+  background-position: center;
+}
+
+div:nth-child(1) {
+  background-image: url("images/13.1.jpg");
+}
+div:nth-child(2) {
+  background-image: url("images/13.2.jpg");
+}
+div:nth-child(3) {
+  background-image: url("images/13.3.jpg");
+}
+div:nth-child(4) {
+  background-image: url("images/13.4.jpg");
+}
+div:nth-child(5) {
+  background-image: url("images/13.5.jpg");
+  grid-row: 1/3;
+}
